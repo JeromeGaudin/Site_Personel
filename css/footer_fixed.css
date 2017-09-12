@@ -1,0 +1,15 @@
+html, body {
+	height: 100%
+}
+
+footer {
+	position: fixed; 
+	bottom: 0;
+	margin-left: calc((100% - (760px + 5%)) / 2);
+}
+
+/*100% - (20% + 20px)*/
+
+#haut_de_page {
+	visibility:hidden;
+}

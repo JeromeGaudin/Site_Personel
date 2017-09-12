@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.droite {
+  float: right; }
+
+.gauche {
+  float: left; }
+
+.texteCentrer {
+  text-align: center; }
+
+p, a, h1, h2, h3, li, td, th {
+  font-family: URWGothicL, Helvetica, Arial, sans-serif; }
+
+p, a, li, td, th {
+  font-size: 1.075em;
+  color: #4a4943; }
+
+a {
+  text-decoration: none;
+  font-weight: bold; }
+  a:hover {
+    color: #000000;
+    font-style: italic; }
+
+h2 {
+  font-size: 1.75em;
+  color: #000000; }
+
+h3 {
+  font-size: 1.5em;
+  color: #4a4943; }
+
+header, nav {
+  line-height: 40px; }
+
+header {
+  display: inline;
+  position: fixed;
+  width: 100%;
+  min-width: 630px;
+  padding: 15px;
+  padding-left: calc(10% + 10px);
+  border-bottom: 3px solid #000000;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.95); }
+  header h1 {
+    padding-right: 15px;
+    color: #000000;
+    font-family: URWGothicL, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    border-right: 3px solid #000000; }
+  header a {
+    font-weight: normal;
+    padding: 10px;
+    font-size: 1.125em; }
+    header a:hover {
+      border-bottom: 2px solid #000000; }
+  header .selectionne {
+    font-weight: bold;
+    border-top: 2px solid #4a4943;
+    border-bottom: 2px solid #4a4943; }
+  header nav, header h1 {
+    display: inline-block; }
+  header nav {
+    vertical-align: top; }
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+  min-width: 770px;
+  height: 40px;
+  line-height: 40px;
+  clear: both; }
+  footer :nth-child(3) {
+    padding-right: 20px; }
+
+#UPEC, footer p {
+  display: table-cell; }
+
+#haut_de_page, #email, #linkedin {
+  position: fixed; }
+
+#haut_de_page {
+  bottom: 15px;
+  right: 40px;
+  width: 75px;
+  height: 75px; }
+
+#email {
+  width: 50px;
+  height: 40px;
+  bottom: 20px;
+  left: 20px; }
+
+#linkedin {
+  width: 40px;
+  height: 40px;
+  bottom: 20px;
+  left: 85px; }
+
+#contenu {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  padding-top: 130px; }
+  #contenu ul {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  #contenu p {
+    text-align: justify;
+    text-indent: 50px;
+    padding-bottom: 10px; }
+  #contenu h2 {
+    padding-bottom: 20px; }
+  #contenu h3 {
+    text-indent: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  #contenu article.droite, #contenu article.gauche {
+    width: 45%;
+    min-width: 310px; }
+  #contenu article {
+    padding: 10px; }
+
+#deuxColonnes {
+  min-width: 660px; }
+
+#deuxColonnesAsymetrique {
+  min-width: 660px;
+  margin-right: 18%;
+  margin-left: 15%; }
+  #deuxColonnesAsymetrique article.gauche {
+    width: 60%; }
+  #deuxColonnesAsymetrique article.droite {
+    width: 20%;
+    min-width: 200px; }
+
+#portrait {
+  margin-top: calc(1.75em + 40px);
+  display: block;
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%; }
+
+#contact {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100px; }
+
+#cv {
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 500px;
+  width: 60%; }
+  #cv table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: 2px solid #000000; }
+  #cv th {
+    color: #4a4943;
+    text-align: left;
+    font-weight: normal;
+    width: 300px;
+    padding-top: 20px; }
+  #cv td, #cv th {
+    vertical-align: top; }
+  #cv tr td {
+    padding-top: 10px; }
+  #cv ul {
+    list-style: none;
+    margin: 0px; }
+  #cv #imprimer {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    padding: 10px; }
+
+#cv > ul {
+  display: inline-block;
+  float: right; }
+
+#cv > ul li {
+  text-align: right; }
+
+#texteCentre {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.slideshow {
+  padding-top: 50%; }
+  .slideshow .imageSlide {
+    width: 100%;
+    height: 290px;
+    display: none;
+    top: 0; }
+  .slideshow .button-slideshow-gauche {
+    float: left; }
+  .slideshow .button-slideshow-droite {
+    float: right; }
+  .slideshow .button-slideshow-droite, .slideshow .button-slideshow-gauche {
+    cursor: pointer;
+    top: 0px;
+    width: 50px; }
+
+/*# sourceMappingURL=style.css.map */

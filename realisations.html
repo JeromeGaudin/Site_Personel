@@ -19,8 +19,8 @@
 			</nav>
 		</header>
 		<div id="contenu">
-			<div id="deuxColonnes">
-				<article class="gauche">
+			<article>
+				<div class="gauche">
 					<h2>Réalisations</h2>
 					<h3>Le blocus</h3>
 					<p>Dans le cadre d'un projet en APL ( Algorithmique et Langages de Programmation), j'ai pu développer ce jeu avec un autre étudiant en utilisant le langage C et une bibliothèque graphique développer par un enseignant. Le but de ce jeu est de bloquer son adversaire, c'est un jeu en 2D qui prend la forme d'une grille de taille variable (de 3 à 9) choisi par le joueur. Le joueur doit faire deux actions pendant son tour :</p>
@@ -28,35 +28,68 @@
 						<li>Il doit poser une croix sur une case libre de la grille</li>
 						<li>Il doit ensuite bouger son pion sur une case adjacente (les pions peuvent bouger en diagonal)</li>
 					</ul>
-					<p>La création de ce jeu m'a permis d'appliquer les principes vus en cour et en TP et aussi de développer mes compétences en terme de :
+					<p>La création de ce jeu m'a permis d'appliquer les principes vus en cours et en TP et aussi de développer mes compétences en terme de :</p>
 					<ul>
 						<li>D'organisation du code</li>
 						<li>De compatibilité de fonction lors du développement à plusieurs personnes</li>
 					</ul>
-					<p>Le jeu et le code source est disponible sur <a href="https://dwarves.iut-fbleau.fr/git/gaudin/Blocus">GitHub</a>, pour que le jeu soit fonctionnel il faut installer la <a href="http://www.iut-fbleau.fr/sitebp/doc/doc_bib_graphique/index.php">bibliothèque graphique</a> de l'IUT.</p>
+					<p>Le jeu et le code source est disponible sur <a href="https://github.com/JeromeGaudin/Blocus">GitHub</a>, pour que le jeu soit fonctionnel il faut installer la <a href="http://www.iut-fbleau.fr/sitebp/doc/doc_bib_graphique/index.php">bibliothèque graphique</a> de l'IUT.</p>
+					<div id="site_web"></div>
+				</div>
+				<div class="slideshow droite">
+					<img src="./img/blocus1.png" class="imageSlide" alt="blocus menu">
+					<img src="./img/blocus2.png" class="imageSlide" alt="blocus jeu">
+					<img src="./img/blocus3.png" class="imageSlide" alt="blocus fin de jeu">
+					<button class="button-slideshow-gauche" onclick="plusDivs(-1)">&#10094;</button>
+	  				<button class="button-slideshow-droite" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+				</script>
+			</article>
+			<article>
+				<div class="droite">
 					<h3>Un site internet</h3>
 					<p>Le site internet sur lequel vous vous trouvez a été réalisé dans le cadre d'un projet en informatique (html et css). Le but de ce projet était de créer un site web pour nous présenter globalement, pour présenter notre CV et crée un endroit où un futur recruteur pourrais en apprendre plus sur nous.</p>
 					<p>Sur ce site je me suis appliqué pour que le graphisme soit agréable et j'ai tâché de donner des informations qui pouvaient être intéressantes. Ce projet m'a beaucoup apporté sur l'esthétique.</p>
-				</article>
-				<article class="droite">
-					<div class="slideshow">
-						<img src="./img/blocus1.png" class="imageSlide" alt="blocus menu">
-						<img src="./img/blocus2.png" class="imageSlide" alt="blocus jeu">
-						<img src="./img/blocus3.png" class="imageSlide" alt="blocus fin de jeu">
-						<button class="button-slideshow-gauche" onclick="plusDivs(-1)">&#10094;</button>
-		  			<button class="button-slideshow-droite" onclick="plusDivs(1)">&#10095;</button>
-					</div>
-					<script>
-						var slideIndex = 1;
-						showDivs(slideIndex);
-					</script>
-				</article>
-			</div>
+					<div id="SameGame"></div>
+				</div>
+				<div class="gauche">
+					<a href="interets.html"><img src="./img/site_web.png" alt="Site web"></a>
+				</div>
+			</article>
+			<article>
+				<div class="gauche">
+					<h3>Le SameGame</h3>
+					<p>Le SameGame est un jeu codé en Java dans le cadre du cours d'APL pour mettre en application nos connaissances dans ce langage. Le jeu se joue tout seul, il y a une grille avec des blocs de différentes couleurs. Le but est d'avoir le score le plus élevé pour cela il faut : cliquer sur des groupes de blocs d'une même couleur pour pouvoir les enlever, plus le groupe de blocs est grand plus il rapporte de points.</p>
+					<p>On ne s'est pas attardé sur le graphisme, on a privilégié les fonctionnalités et corriger les bugs. Le jeu et le code source est disponible sur <a href="https://github.com/JeromeGaudin/SameGame">GitHub</a> si vous voulez le tester.</p>
+				</div>
+				<div class="droite">
+					<img src="./img/samegame.png" alt="SameGame">
+			</article>
+			<article>
+				<div class="droite">
+					<h3>Dico Anglais</h3>
+					<p>J'ai fait ce programme pendant mon temps libre, il permet de rechercher la traduction d'un mot en une autre langue. Il n'a pas d'interface graphique, ce qui n'est pas forcément utile pour ce genre d'application. Quand on l'execute on est en "mode console" dans le programme comme dans gdb, sftp ou ssh. Il y a différentes commandes qui permettent de gérer les traductions:</p>
+					<ul>
+						<li>add : ajoute une traduction</li>
+						<li>trad : traduit un mot en anglais ou ne français</li>
+						<li>help : donne la liste des commandes</li>
+						<li>del : supprime une traduction</li>
+						<li>exit : quitter l'application</li>
+					</ul>
+					<p>Le code source est disponible sur <a href="https://github.com/JeromeGaudin/Dico_Anglais">GitHub</a>.</p>
+				</div>
+				<div class="gauche">
+					<img src="./img/dico_anglais.png" alt="Dico Anglais">
+				</div>
+			</article>
 		</div>
 		<footer>
 			<p class="gauche">© copyright 2017 - Jérôme GAUDIN All Rights Reserved</p>
 			<img class="droite" id="UPEC" src="img/logo_upec.jpg" alt="UPEC - Université Paris-Est Créteil"/>
-			<p class="droite">Dernière modification : 20/03/2017</p>
+			<p class="droite">Dernière modification : 12/10/2017</p>
 			<a href="mailto:jerome-gaudin@sfr.fr"><img id="email" src="img/email.png" alt="e-mail"/></a>
 			<a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-gaudin-00489713a/"><img id="linkedin" src="img/linkedin.png" alt="linkedin"/></a>
 			<a href="#" onclick="hautPage();"><img id="haut_de_page" src ="img/haut_de_page.png" alt="haut de page"/></a>

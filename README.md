@@ -17,5 +17,5 @@ Ou vous pouvez exécuter le code source sur votre machine :
 ### Lancement
 Copier le répertoire et ouvrer index.html avec votre navigateur internet
 
-## Auteurs
+## Auteur
 - [Jérôme GAUDIN](https://github.com/JeromeGaudin)
